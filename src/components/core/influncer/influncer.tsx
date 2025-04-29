@@ -1,8 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
 import Image from "next/image";
-import { NavbarButton } from "@/components/ui/resizable-navbar";
-import { Button } from "@/components/ui/button";
+
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 const reviews = [
@@ -82,7 +81,7 @@ export default function InfluncerSection() {
           To connect with top influencers across india
         </h1>
         <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-          Contact us today and let's build your next viral campaign
+          Contact us today and let &apos;s build your next viral campaign
         </p>
         <ShimmerButton className="mx-auto mt-3">Contact us</ShimmerButton>
       </div>

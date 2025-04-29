@@ -1,6 +1,8 @@
 import {NavbarMenu} from "@/components/core/Header/Navbar";
 import HeroSection from "@/components/core/Hero/Hero";
 import InfluncerSection from "@/components/core/influncer/influncer";
+import MapPage from "@/components/core/map/map";
+import ReelsSection from "@/components/core/reels/reels";
 
 const HomePage = () => {
   return (
@@ -8,6 +10,8 @@ const HomePage = () => {
       <NavbarMenu />
       <HeroSection />
       <InfluncerSection />
+      <MapPage />
+      <ReelsSection />
     </div>
   );
 };
