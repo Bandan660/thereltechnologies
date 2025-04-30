@@ -16,19 +16,19 @@ export function NavbarMenu() {
   const navItems = [
     {
       name: "For Brands",
-      link: "#brands",
+      link: "",
     },
     {
       name: "For Creators",
-      link: "creator",
+      link: "",
     },
     {
       name: "Portfolio",
-      link: "portfolio",
+      link: "",
     },
     {
       name: "About us",
-      link: "aboutus",
+      link: "",
     },
   ];
 

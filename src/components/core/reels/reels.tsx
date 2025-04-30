@@ -17,7 +17,7 @@ const reviews = [
 
 export default function ReelsSection() {
   return (
-    <div className="w-full  mt-10  ">
+    <div className="w-full  my-10  ">
       <div className="text-center  mx-auto mb-5">
         <h1 className="text-3xl font-bold text-black dark:text-white">
           Our Latest Work
@@ -26,8 +26,8 @@ export default function ReelsSection() {
           influencer collab with brands
         </p>
       </div>
-      <div className="mt-5 w-full">
-        <div className="flex justify-around  gap-5"> 
+      <div className="mt-10 w-full">
+        <div className="flex justify-around flex-wrap gap-5"> 
           {reviews.map((review, index) => (
             <InstagramReview key={index} url={review.url}  />
           ))}
